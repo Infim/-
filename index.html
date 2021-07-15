@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Форма для авторизации</title>
+		<link rel="stylesheet" href="./style.css" type="text/css">
+	</head>
+	<body>
+		<div class="signin">
+			<form class="tab-form">
+				<h1 class="header">Войти</h1>
+				<input type="email" placeholder="Введите E-mail" class="email" required>
+				<input type="password" placeholder="Введите пароль" class="password" pattern="([A-Za-z]|[0-9]){6,}" title="Должно содержать только буквы латинского алфавита и/или цифры, длина пароля должна быть не менее 6 символов" required>
+				<button class="button submit">войти</button>
+			</form>
+		</div>	
+	</body>
+</html>

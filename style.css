@@ -1,0 +1,31 @@
+* {
+ margin: 0;
+ padding: 0;
+ font-family: Roboto, sans-serif;
+}
+html, body {
+    height: 100%;
+}
+.tab-form {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff; 
+    width: 330px;
+    height: fit-content;
+}
+
+.signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.header {
+  margin-bottom: 15px;
+}
+
+.tab-form input {
+ display: block;
+ margin-bottom: 10px;
+}
